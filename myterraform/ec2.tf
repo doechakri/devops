@@ -1,6 +1,6 @@
 resource "aws_instance" "roboec2" {
   #ami = data.aws_ami.roboimage.id
-  ami = "ami-067a8829f9ae24c1c"
+  ami = "ami-0889a44b331db0194"
   instance_type = "t2.micro"
   tags = {
     Name = "helloworld"
